@@ -1,0 +1,16 @@
+START
+DECLARE N1, N2, N3, NLarge : INTEGER
+PRINT "Please enter Num 1"
+INPUT N1
+PRINT "Please enter Num 2"
+INPUT N2
+PRINT "Please enter Num 3"
+INPUT N3
+IF N1>N2 AND N1>N3 
+THEN N1=NLarge
+ELSEIF N2>N1 AND N2>N3 
+THEN N2=NLarge
+ELSE N3=NLarge
+ENDIF
+PRINT NLarge
+END
