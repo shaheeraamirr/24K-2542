@@ -1,0 +1,14 @@
+START
+READ Nth
+READ n
+CALCULATE n/Nth
+IF REMAINDER=0
+THEN Nth is a divisor
+ELSE Nth is NOT a divisor
+ENDIF
+CALCULATE (n/Nth)/2
+IF REMAINDER=0
+THEN Number is even
+ELSE Number is odd
+ENDIF
+END
