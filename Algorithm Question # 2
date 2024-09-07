@@ -1,0 +1,29 @@
+START
+READ NUM
+IF NUM=1
+THEN PRINT "January"
+ELSEIF NUM=2
+THEN PRINT "February"
+IF NUM=3
+THEN PRINT "March"
+ELSEIF NUM=4
+THEN PRINT "April"
+IF NUM=5
+THEN PRINT "May"
+ELSEIF NUM=6
+THEN PRINT "June"
+IF NUM=7
+THEN PRINT "July"
+ELSEIF NUM=8
+THEN PRINT "August"
+IF NUM=9
+THEN PRINT "September"
+ELSEIF NUM=10
+THEN PRINT "October"
+IF NUM=11
+THEN PRINT "November"
+ELSEIF NUM=12
+THEN PRINT "December"
+ELSE PRINT "Invalid Number! Please enter number between 1 and 12 inclusive"
+ENDIF
+END
