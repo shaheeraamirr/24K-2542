@@ -1,0 +1,12 @@
+START
+DECLARE N1, N2, N3 : INTEGER
+INITIALISE A=0
+PRINT "Please enter Num 1"
+INPUT N1
+PRINT "Please enter Num 2"
+INPUT N2
+PRINT "Please enter Num 3"
+INPUT N3
+A=N1-(-N2)-(-N3)
+PRINT A
+END
